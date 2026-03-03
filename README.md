@@ -292,7 +292,7 @@ python examples.py
 ## 📧 التواصل / Contact
 
 - GitHub Issues: [Report Bug](https://github.com/yourusername/egypt-nlp/issues)
-- Email: your.email@example.com
+- Email: amreleraqi.ca@gmail.com
 
 ## 🗺️ خارطة الطريق / Roadmap
 
