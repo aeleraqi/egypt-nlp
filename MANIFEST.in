@@ -1,0 +1,19 @@
+# Include documentation
+include README.md
+include LICENSE
+include CHANGELOG.md
+include QUICKSTART.md
+
+# Include examples
+include demo.py
+include egypt_nlp/examples.py
+include egypt_nlp/examples_enhanced.py
+
+# Include documentation files
+recursive-include egypt_nlp *.md
+
+# Exclude compiled files
+global-exclude *.py[cod]
+global-exclude __pycache__
+global-exclude *.so
+global-exclude .DS_Store

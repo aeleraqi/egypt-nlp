@@ -1,0 +1,8 @@
+# Egypt NLP - Requirements
+# المكتبة لا تحتاج مكتبات خارجية - تستخدم المكتبات القياسية فقط
+
+# Development Requirements (Optional)
+# pytest>=7.0.0
+# pytest-cov>=3.0.0
+# black>=22.0.0
+# flake8>=4.0.0

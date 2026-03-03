@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "egypt-nlp"
+version = "2.0.0"
+description = "مكتبة Python لاستخراج الكيانات الجغرافية المصرية مع معالجة الأخطاء الكتابية"
+readme = "README.md"
+authors = [
+    {name = "Egypt NLP Team", email = "contact@egypt-nlp.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Linguistic",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Natural Language :: Arabic",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "nlp",
+    "arabic",
+    "egypt",
+    "ner",
+    "named-entity-recognition",
+    "geographic",
+    "location-extraction",
+    "fuzzy-matching",
+    "spell-correction",
+]
+requires-python = ">=3.7"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=3.0.0",
+    "black>=22.0.0",
+    "flake8>=4.0.0",
+    "mypy>=0.950",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/egypt-nlp"
+Documentation = "https://github.com/yourusername/egypt-nlp/blob/main/README.md"
+Repository = "https://github.com/yourusername/egypt-nlp"
+"Bug Tracker" = "https://github.com/yourusername/egypt-nlp/issues"
+Changelog = "https://github.com/yourusername/egypt-nlp/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+packages = ["egypt_nlp"]
+
+[tool.setuptools.package-data]
+egypt_nlp = ["*.md", "*.txt"]
