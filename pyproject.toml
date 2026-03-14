@@ -52,11 +52,11 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/egypt-nlp"
-Documentation = "https://github.com/yourusername/egypt-nlp/blob/main/README.md"
-Repository = "https://github.com/yourusername/egypt-nlp"
-"Bug Tracker" = "https://github.com/yourusername/egypt-nlp/issues"
-Changelog = "https://github.com/yourusername/egypt-nlp/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/aeleraqi/egypt-nlp"
+Documentation = "https://github.com/aeleraqi/egypt-nlp/blob/main/README.md"
+Repository = "https://github.com/aeleraqi/egypt-nlp"
+"Bug Tracker" = "https://github.com/aeleraqi/egypt-nlp/issues"
+Changelog = "https://github.com/aeleraqi/egypt-nlp/blob/main/CHANGELOG.md"
 
 [tool.setuptools]
 packages = ["egypt_nlp"]

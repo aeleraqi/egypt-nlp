@@ -18,7 +18,7 @@ A specialized Python library for extracting and recognizing Egyptian geographic 
 
 ```bash
 # من المصدر
-git clone https://github.com/yourusername/egypt-nlp.git
+git clone https://github.com/aeleraqi/egypt-nlp.git
 cd egypt-nlp
 pip install -e .
 
@@ -291,7 +291,7 @@ python examples.py
 
 ## 📧 التواصل / Contact
 
-- GitHub Issues: [Report Bug](https://github.com/yourusername/egypt-nlp/issues)
+- GitHub Issues: [Report Bug](https://github.com/aeleraqi/egypt-nlp/issues)
 - Email: your.email@example.com
 
 ## 🗺️ خارطة الطريق / Roadmap
