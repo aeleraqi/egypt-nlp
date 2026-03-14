@@ -8,7 +8,7 @@
 
 إذا وجدت خطأ:
 
-1. تحقق من [Issues](https://github.com/USERNAME/egypt-nlp/issues) أنه لم يُبلّغ عنه
+1. تحقق من [Issues](https://github.com/aeleraqi/egypt-nlp/issues) أنه لم يُبلّغ عنه
 2. افتح Issue جديد واستخدم القالب
 3. اشرح المشكلة بوضوح مع مثال
 
@@ -37,7 +37,7 @@
 ### الخطوة 2: Clone المشروع
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/egypt-nlp.git
+git clone https://github.com/aeleraqi/egypt-nlp.git
 cd egypt-nlp
 ```
 

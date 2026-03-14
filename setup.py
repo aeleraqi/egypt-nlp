@@ -12,7 +12,7 @@ setup(
     description="مكتبة Python لاستخراج الكيانات الجغرافية المصرية مع معالجة الأخطاء الكتابية",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/egypt-nlp",
+    url="https://github.com/aeleraqi/egypt-nlp",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -57,9 +57,9 @@ setup(
         "معالجة اللغة الطبيعية",
     ],
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/egypt-nlp/issues",
-        "Source": "https://github.com/yourusername/egypt-nlp",
-        "Documentation": "https://github.com/yourusername/egypt-nlp/blob/main/README.md",
+        "Bug Reports": "https://github.com/aeleraqi/egypt-nlp/issues",
+        "Source": "https://github.com/aeleraqi/egypt-nlp",
+        "Documentation": "https://github.com/aeleraqi/egypt-nlp/blob/main/README.md",
     },
     include_package_data=True,
     zip_safe=False,
